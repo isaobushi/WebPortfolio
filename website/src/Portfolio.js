@@ -139,24 +139,12 @@ export default class Portfolio extends React.Component {
     }
     return (
       <div>
-      <Particles params={particlesOpt} /> 
-      <div className='grid'>
-          {this.state.projects.map(project=>{
-           return <Tile projects = {{title: project.title, image: project.image, stats: project.stats, link: project.link}} />
-          })}
-      </div>
-      {/* <div className="skills">
-          <img src="../images/html5-logo.svg" alt="Html5" className="icon-skill"/>
-          <img src="./images/" alt="Javascript" className="icon-skill"/>
-          <img src="./images/CSS.3.svg" alt="Css3" className="icon-skill"/>
-          <img src="./images/" alt="Sass" className="icon-skill"/>
-          <img src="./images/" alt="Node" className="icon-skill"/>
-          <img src="./images/" alt="React" className="icon-skill"/>
-          <img src="./images/" alt="Ruby" className="icon-skill"/>
-          <img src="./images/" alt="rails" className="icon-skill"/>
-          <img src="./images/" alt="psql" className="icon-skill"/>
-          <img src="./images/" alt="github" className="icon-skill"/>
-      </div> */}
+        <Particles params={particlesOpt} /> 
+        <div className='grid'>
+            {this.state.projects.map(project=>{
+            return <Tile projects = {{title: project.title, image: project.image, stats: project.stats, link: project.link}} />
+            })}
+        </div>
       </div>
     )
   }

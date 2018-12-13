@@ -7,7 +7,7 @@ export default function Header(){
     <div className='wrapper-list'>
       <ul className='list'>
         <Link to="/">Home</Link>
-        {/* <Link to="/Skills">Skills</Link> */}
+        {/* <Link to="/Skills">Skills</Link> to be implemented */}
         <Link to="/Portfolio">Portfolio</Link>
         <Link to="/About">About</Link>
       </ul>
