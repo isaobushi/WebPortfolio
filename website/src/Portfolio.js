@@ -15,12 +15,32 @@ import Particles from 'react-particles-js';
 export default class Portfolio extends React.Component {
   constructor(){
     super()
-    this.state = {
+
+
+      this.state = {
       projects: [
-        {title: 'TTT', image: BackgroundImageTTT, stats: '',link:'https://github.com/isaobushi/Tic-Tac-Toe'},
-        {title: 'EAF', image: BackgroundImageEAF, stats: 'yes',link:'https://github.com/isaobushi/Emergency-Animal-Finder'},
-        {title: 'Portfolio', image: BackgroundImagePortfolio, stats: 'soso',link:'https://github.com/isaobushi/WebPortfolio'},
-        {title: 'ZoneIn', image: BackgroundImageZoneIn, stats: 'soso',link:'https://github.com/isaobushi/ZoneIn'}
+        {
+          title: 'TTT', 
+            image: BackgroundImageTTT, 
+              text:  " What you're about to view is a rough version of my first JavaScript project. Built with HTML5, CSS3 js",
+                link:'https://github.com/isaobushi/Tic-Tac-Toe'
+        },
+        {
+          title: 'EAF',
+           image: BackgroundImageEAF,
+             text: "A web app to be used during natural disasters to help lost animals get reunited with their owners. Built wit Rails, eafletjs geocoder",
+              link:'https://github.com/isaobushi/Emergency-Animal-Finder'},
+        {
+          title: 'Portfolio',
+           image: BackgroundImagePortfolio,
+            text: "This very website that I'm still updating and improving, built with React",
+              link:'https://github.com/isaobushi/WebPortfolio'
+            },
+        {
+          title: 'ZoneIn',
+           image: BackgroundImageZoneIn,
+            text: "my team and I won the a hackthon event elaborating an AI agorithm designed to help university students with their assignments, I have implemented the idea in this webapp, built on Ruby and Sinatra",
+            link:'https://github.com/isaobushi/ZoneIn'}
       ]
     }
   }
@@ -142,7 +162,7 @@ export default class Portfolio extends React.Component {
         <Particles params={particlesOpt} /> 
         <div className='grid'>
             {this.state.projects.map(project=>{
-            return <Tile projects = {{title: project.title, image: project.image, stats: project.stats, link: project.link}} />
+            return <Tile projects = {{title: project.title, image: project.image, text: project.text, link: project.link}} />
             })}
         </div>
       </div>
