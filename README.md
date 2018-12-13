@@ -12,6 +12,6 @@ https://andrea-mele-portfolio.herokuapp.com/
 
 <hr>
 <br>
-Future implementaion: 
+**Future implementaion:**<br>
  a skills section to be added
  
