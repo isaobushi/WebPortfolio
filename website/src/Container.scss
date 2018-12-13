@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Lato', sans-serif;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: all 500ms ease-in;
+
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: all 500ms ease-in;
+}
+
+.transition-group {
+  position: relative;
+}
+.route-section {
+  position: absolute;
+  // width: 100%;
+  // top: 0;
+  // left: 0;
+}
+
+
+.wrapper-page-home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center 
+}
+  .wrapper-home-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+   }
+
+    .home-text, .home-text-sub {
+      font-size: 45px;
+      color: rgb(255, 224, 158);
+    }
+    .home-text {
+      font-size: 55px;
+
+      color: rgb(248, 210, 129);
+      font-weight: 900;
+
+    }
+
+.home-fade-enter {
+  height: 0vh;
+}
+
+.home-fade-enter-active {
+  transition: all 500ms ease-in;
+  height: 100vh;
+}
+
+.home-fade-exit{
+  height: 100vh;
+}
+
+.home-fade-exit-active {
+  height: 0vh;
+  transition: all 500ms ease-in;
+}
+
+
+
+
+
+.list  {
+  display: inline-block;
+  margin-left: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
+
+
+  a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(248, 210, 129);
+    transition: all, .2s ease-in;
+  }
+
+  a:hover {
+    color: grey;
+    border-bottom: 3px solid rgb(248, 210, 129);
+  }
+}
+
+
+.about-text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  width: 100vw;
+  height: 70vh;
+  text-align: center;
+}
+.about-p {
+  font-size: 30px;
+  color: rgb(248, 210, 129);
+  line-height: 150%;
+}
+.wrapper-main-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.yellow {
+  color: grey;
+
+}
+
