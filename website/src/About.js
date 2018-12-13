@@ -123,7 +123,7 @@ export default function About() {
       <section>
         <p className='about-p'>
         I'm a full-stack web developer.<br/>
-        Fast load times and lag free <span class='yellow'>interaction</span>, my highes priority.<br/> 
+        Fast load times and lag free <span class='yellow'>interaction</span>, my highest priority.<br/> 
         My layouts will work on any device, big or small.<br/> 
         Strong preference for easy to use, <span class='yellow'>intuitive</span> UX/UI.<br/>
         Websites don't have to be static,<br/> 

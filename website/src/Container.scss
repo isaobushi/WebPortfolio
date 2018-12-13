@@ -1,3 +1,5 @@
+$mikadoYellow: #FFC20C;
+
 *{
   box-sizing: border-box;
   margin:0;
@@ -143,16 +145,17 @@
 .grid{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  margin:10rem;
-  grid-gap: 10px;
+  margin: 15rem 5rem;
+  grid-gap: 2rem;
+  background-color: transparent;
 }
 
 .tile {
   display: flex;
   flex-direction: column;
   transition: all, .5s ease-in-out;
-  justify-content: top;
   box-shadow: 2px 2px 2px grey;
+
 }
 
 .tile:hover {
@@ -160,13 +163,19 @@
 }
 
 .tile-title {
-  align-self: top;
   height: 5%;
-  border: 1px solid black;
+  margin-top: 0;
+  text-decoration: none;
+  text-align: left;
 }
 
 .tile-stats {
-  align-self: bottom;
-  height: 5%;
-  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  color: $mikadoYellow;
+  margin-top: 10%;
+}
+
+
+.inactive {
+opacity: 0;
 }
