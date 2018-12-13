@@ -7,12 +7,14 @@
 
 .fade-enter {
   opacity: 0.01;
+  margin:0;
+  background-color: transparent;
+
 }
 
 .fade-enter.fade-enter-active {
   opacity: 1;
   transition: all 500ms ease-in;
-
 }
 
 .fade-exit {
@@ -22,16 +24,17 @@
 .fade-exit.fade-exit-active {
   opacity: 0.01;
   transition: all 500ms ease-in;
+
 }
 
 .transition-group {
   position: relative;
+
 }
 .route-section {
-  position: absolute;
-  // width: 100%;
-  // top: 0;
-  // left: 0;
+  position: relative;
+  // margin: 100px;
+
 }
 
 
@@ -137,3 +140,15 @@
 
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  // grid-template-rows: min-content 1fr;
+  margin:10rem auto;
+  grid-gap: 10px;
+}
+
+.tile {
+  transition: all, .5s ease-in-out
+
+}
