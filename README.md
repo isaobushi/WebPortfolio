@@ -11,7 +11,7 @@ Using Particles.js for the background.
 https://andrea-mele-portfolio.herokuapp.com/
 
 <hr>
-<br>
-**Future implementaion:**<br>
+
+**Future implementaion:** <br>
  a skills section to be added
  
