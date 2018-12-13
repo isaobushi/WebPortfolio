@@ -13,7 +13,8 @@ https://andrea-mele-portfolio.herokuapp.com/
 <hr>
 
 **Future implementation:** <br>
- * A skills section to be added 
- * Portfolio section, enable key ESC to leave active tile
- * Portolio sectio, prevent more tiles are active at the same time
+ * Insert a skills section.
+ * Portfolio section, enable ESC key to leave active tile.
+ * Portfolio section, prevent that more tiles are activated at the same time.
+ * Change tiles images with SVG.
  
