@@ -5,7 +5,16 @@ export default function Skills(){
   return (
     <div className='wrapper'>
     <section>
-      <p>Quello che so</p>
+      <div className="skill-logo"></div>
+      <div className="skill-logo"></div>
+      <div className="skill-logo"></div>
+      <div className="skill-logo"></div>
+      <div className="skill-logo"></div>
+      <div className="skill-logo"></div>
+      <div className="skill-logo"></div>
+      <div className="skill-logo"></div>
+      <div className="skill-logo"></div>
+      <div className="skill-logo"></div>
     </section>
   </div>
   )

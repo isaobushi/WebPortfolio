@@ -115,14 +115,11 @@ const particlesOpt = {
 export default function Home() {
 
   return (
-
-    <div className='wrapper-page-home home-fade-enter home-fade-exit'>
-
-      <section className='wrapper-home-p'>
+    
+    <section className='wrapper-home-p'>
         <Particles params={particlesOpt} />
         <p className='home-text'>Hi, I'm Andrea!</p>
         <p className='home-text-sub'>Full Stack Dev  | Blogger | Dungeons crawler</p>
-      </section>
-    </div>
+     </section>
   )
 }

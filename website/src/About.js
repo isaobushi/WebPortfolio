@@ -118,8 +118,8 @@ export default function About() {
 
     return (
       <div className='about-text-container'>
-       <Particles params={particlesOpt} />
 
+      <Particles params={particlesOpt} />
       <section>
         <p className='about-p'>
         I'm a full-stack web developer.<br/>

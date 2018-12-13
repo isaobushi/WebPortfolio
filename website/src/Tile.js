@@ -19,13 +19,13 @@ export default class Tile extends React.Component{
       active: !this.state.active
     })
   }
-  
+
+
     render(){
+      
       const linearGradient = 'linear-gradient(rgba(0, 0, 0, 0.315),rgba(0, 0, 0, 0.235))'
       const background = `url(${this.state.backgroundImage})`
-
       let styleTile = {
-        // backgroundColor: this.state.active ? 'green' : 'tranparent',
         width: this.state.active ? '70%' : '15rem',
         height: this.state.active ? '70%' : '15rem',
         position: this.state.active ? 'fixed' : '',
@@ -34,7 +34,7 @@ export default class Tile extends React.Component{
         left: this.state.active ? '0px' : '',
         transform: this.state.active ? 'translate(25%, 20%)' : '',
         margin: this.state.active ? 'auto' : '',
-        backgroundImage: this.state.active ? `${background}`: `${linearGradient}, ${background}`,
+        backgroundImage: this.state.active ? `${linearGradient}, ${background}` : `${background}`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -46,18 +46,18 @@ export default class Tile extends React.Component{
        }
 
     return(
-      
       <div 
+      id=''
       className="tile"
       style={styleTile}
-        onClick={() => this.toggleActive()}
+      onClick={() => this.toggleActive()}
       >
         <div className="tile-title">
         <a 
         href={this.state.link}
         target='blank'
 
-        ><Ionicon icon="logo-octocat" fontSize="35px" color="tomato"/></a></div>
+        ><Ionicon icon="logo-octocat" beat={true}fontSize="35px" color="tomato"/></a></div>
         <div 
           className='tile-stats'
           style={this.state.active? {opacity: '1'} : styleDescription   }

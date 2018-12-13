@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import Header from './Header.js'
 import Container from './Container.js'
 import { BrowserRouter as Router } from "react-router-dom";
+import Contacts from './Contacts'
 
 
 
@@ -13,6 +14,7 @@ const App = () => (
       <div className='wrapper-main-content'>
         <Header/>
         <Container />
+    <Contacts />
      </div>
     </Router>
       
