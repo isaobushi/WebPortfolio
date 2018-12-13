@@ -3,7 +3,7 @@ import Tile from './Tile'
 import BackgroundImageTTT from './ttt.png'; 
 import BackgroundImageEAF from './eaf.png'; 
 import BackgroundImagePortfolio from './website.png';
-import BackgroundImageZoneIn from './zoneIn.jpg';
+import BackgroundImageZoneIn from './zoneIn.png';
 import Particles from 'react-particles-js';
 
 
@@ -39,7 +39,7 @@ export default class Portfolio extends React.Component {
         {
           title: 'ZoneIn',
            image: BackgroundImageZoneIn,
-            text: "my team and I won the a hackthon event elaborating an AI agorithm designed to help university students with their assignments, I have implemented the idea in this webapp, built on Ruby and Sinatra",
+            text: "My team and I won the a hackthon event elaborating an AI agorithm designed to help university students with their assignments, I have implemented the idea in this webapp, built on Ruby and Sinatra",
             link:'https://github.com/isaobushi/ZoneIn'}
       ]
     }
