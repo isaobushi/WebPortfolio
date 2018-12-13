@@ -7,10 +7,11 @@ Routing has been done with React Router v4, and animation passage through pages 
 Using Particles.js for the background.
 
 <hr>
-<br>
-[Andrea Mele ](https://andrea-mele-portfolio.herokuapp.com/)
-<br>
+
+https://andrea-mele-portfolio.herokuapp.com/
+
 <hr>
+<br>
 Future implementaion: 
  a skills section to be added
  
