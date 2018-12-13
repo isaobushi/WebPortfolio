@@ -1,10 +1,15 @@
 import React from 'react'
+import './Tile'
 
 
 export default class Portfolio extends React.Component {
   render() {
     return (
-      <div>
+      <div className='grid'>
+      <Tile />
+      <Tile />
+      <Tile />
+      <Tile />
       </div>
     )
   }
