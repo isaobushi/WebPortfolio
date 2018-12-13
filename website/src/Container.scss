@@ -143,12 +143,30 @@
 .grid{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  // grid-template-rows: min-content 1fr;
-  margin:10rem auto;
+  margin:10rem;
   grid-gap: 10px;
 }
 
 .tile {
-  transition: all, .5s ease-in-out
+  display: flex;
+  flex-direction: column;
+  transition: all, .5s ease-in-out;
+  justify-content: top;
+  box-shadow: 2px 2px 2px grey;
+}
 
+.tile:hover {
+  transform: scale(1.1)
+}
+
+.tile-title {
+  align-self: top;
+  height: 5%;
+  border: 1px solid black;
+}
+
+.tile-stats {
+  align-self: bottom;
+  height: 5%;
+  border: 1px solid black;
 }
